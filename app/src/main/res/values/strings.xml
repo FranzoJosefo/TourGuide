@@ -1,3 +1,154 @@
 <resources>
-    <string name="app_name">Tour Guide</string>
+    <string name="app_name">Buenos Aires Guide</string>
+
+    <!--Shopping Strings-->
+
+    <string name="unicenter_name">Unicenter</string>
+    <string name="unicenter_description">Unicenter is a major shopping and entertainment complex in Greater Buenos Aires, Argentina.</string>
+    <string name="unicenter_business_hours">Mon\u0020-\u0020Sun\u0020\u0020\u0020\u002010AM\u0020-\u002010PM</string>
+    <string name="unicenter_address">Paraná 3745, Martínez, BA</string>
+    <!--<string name="unicenter_geolocation_uri">-34.5086274,-58.5232128</string>-->
+    <string name="unicenter_geolocation_uri">48Q3FFRG+JH</string>
+
+    <string name="abasto_name">Abasto</string>
+    <string name="abasto_description">The building was the central wholesale fruit and vegetable market in the city from 1893 to 1984. Since 1999, it has served as a shopping mall.</string>
+    <string name="abasto_business_hours">Mon\u0020-\u0020Sun\u0020\u0020\u0020\u002010AM\u0020-\u002010PM</string>
+    <string name="abasto_address">Av. Corrientes 3247, CABA</string>
+    <string name="abasto_geolocation_uri">48Q39HWQ+MM</string>
+
+    <string name="recoleta_name">Recoleta Mall</string>
+    <string name="recoleta_description">The Recoleta Mall (formerly known as "Village Recoleta") is the newest shopping center in the city of Buenos Aires</string>
+    <string name="recoleta_hours">Mon\u0020-\u0020Sun\u0020\u0020\u0020\u002024 hs</string>
+    <string name="recoleta_address">Vicente López 2050, CABA</string>
+    <string name="recoleta_geolocation_uri">48Q3CJ64+8F</string>
+
+    <string name="alcorta_name">Alcorta Shopping</string>
+    <string name="alcorta_description">The Paseo Alcorta Shopping is a commercial center that occupies a complete block, within the exclusive neighborhood of "Palermo Chico".</string>
+    <string name="alcorta_business_hours">Mon\u0020-\u0020Sun\u0020\u0020\u0020\u002010AM\u0020-\u00209PM</string>
+    <string name="alcorta_address">Jerónimo Salguero 3172, CABA</string>
+    <string name="alcorta_geolocation_uri">48Q3CHFW+W7</string>
+    \
+    <string name="palermo_name">Alto Palermo</string>
+    <string name="palermo_description">Alto Palermo is located in one of the most populated neighborhoods of Buenos Aires, and just over four kilometers from downtown.</string>
+    <string name="palermo_business_hours">Mon\u0020-\u0020Sun\u0020\u0020\u0020\u002010AM\u0020-\u002010PM</string>
+    <string name="palermo_address">Av. Santa Fe 3253, CABA</string>
+    <string name="palermo_geolocation_uri">48Q3CH6Q+MP</string>
+
+    <string name="dot_name">Dot Baires</string>
+    <string name="dot_description">The Dot Baires Shopping is a mall located in the neighborhood of Saavedra , Buenos Aires, Argentina inaugurated on May 13 of 2009.</string>
+    <string name="dot_business_hours">Mon\u0020-\u0020Sun\u0020\u0020\u0020\u002010AM\u0020-\u002010PM</string>
+    <string name="dot_address">Vedia 3600, Buenos Aires</string>
+    <string name="dot_geolocation_uri">48Q3FG36+PP</string>
+
+    <string name="pacifico_name">Galerias Pacifico</string>
+    <string name="pacifico_description">Galerías Pacífico is a shopping centre in BA, located at the intersection of Florida St. and Córdoba Av.</string>
+    <string name="pacifico_business_hours">Mon\u0020-\u0020Sun\u0020\u0020\u0020\u002010AM\u0020-\u00209PM</string>
+    <string name="pacifico_address">Av. Córdoba 550, CABA</string>
+    <string name="pacifico_geolocation_uri">48Q3CJ2G+F2</string>
+
+    <string name="norcenter_name">Norcenter</string>
+    <string name="norcenter_description">Norcenter is the first lifestyle mall of Argentina in Greater Buenos Aires, Argentina.</string>
+    <string name="norcenter_business_hours_1">Mon\u0020-\u0020Fri\u0020\u0020\u0020\u002011AM\u0020-\u00209PM</string>
+    <string name="norcenter_business_hours_2">Sat\u0020\u0020\u0020\u002010AM\u0020-\u00209PM</string>
+    <string name="norcenter_business_hours_3">Sun/Holidays\u0020\u0020\u0020\u002012AM\u0020-\u00209PM</string>
+    <string name="norcenter_address">Esteban Echeverria 3750, Vicente López, BA</string>
+    <string name="norcenter_geolocation_uri">48Q3FFPH+64</string>
+
+
+    <!--Food & Drinks Strings-->
+
+    <string name="pony_line_name">Pony Line</string>
+    <string name="pony_line_description">Creative cocktails, best-in-the-city burgers and artisanal beers are just some of the highlights at our fun and lively lounge.</string>
+    <string name="pony_line_business_hours_1">Mon\u0020-\u0020Fri\u0020\u0020\u0020\u002011AM\u0020-\u00202AM</string>
+    <string name="pony_line_business_hours_2">Sat\u0020\u0020\u0020\u00206PM\u0020-\u00203AM</string>
+    <string name="pony_line_business_hours_3">Sun\u0020\u0020\u0020\u00205PM\u0020-\u00201AM</string>
+    <string name="pony_line_address">Posadas 1086, CABA</string>
+    <string name="pony_line_geolocation_uri">48Q3CJ58+PW</string>
+
+    <string name="ilatina_name">i Latina</string>
+    <string name="ilatina_description">I Latina is a latin american cuisine restaurant that offers a 7 course tasting menu, a culinary journey from Mexico to Patagonia.</string>
+    <string name="ilatina_business_hours">Tue\u0020-\u0020Sat\u0020\u0020\u0020\u00208PM\u0020-\u002011:30PM</string>
+    <string name="ilatitna_address">Pedro Domingo Murillo 725, CABA</string>
+    <string name="ilatitna_geolocation_uri">48Q39HX4+VC</string>
+
+    <string name="argentine_experience_name">The Argentine Experience</string>
+    <string name="argentine_experience_description">Hands-On Dining in BA. More than just a restaurant, the Argentine Experience is more like an interactive dinner party.</string>
+    <string name="argentine_experience_business_hours">Mon\u0020-\u0020Sat\u0020\u0020\u0020\u00206PM\u0020-\u002011PM</string>
+    <string name="argentine_experience_address">Fitz Roy 2110, CABA</string>
+    <string name="argentine_experience_geolocation_uri">48Q3CH98+PX</string>
+
+    <string name="don_julio_name">Don Julio Parrilla</string>
+    <string name="don_julio_description">Popular destination for classic steaks, local dishes &amp; a long wine list in an intimate ambiance.</string>
+    <string name="don_julio_business_hours">Mon\u0020-\u0020Sun\u0020\u0020\u0020\u002012PM\u0020-\u00204PM,\u00207PM\u0020-\u00201AM</string>
+    <string name="don_julio_address">Guatemala 4699, CABA</string>
+    <string name="don_julio_geolocation_uri">48Q3CH7G+F6</string>
+
+    <string name="siga_la_vaca_name">Siga La Vaca</string>
+    <string name="siga_la_vaca_description">With a large room that can accommodate a large number of diners, the Siga La Vaca (all you can eat) restaurant has a variety of grilled meats.</string>
+    <string name="siga_la_vaca_business_hours_1">Mon\u0020-\u0020Fri\u0020\u0020\u0020\u002012PM\u0020-\u00201AM</string>
+    <string name="siga_la_vaca_business_hours_2">Sat/Sun\u0020\u0020\u0020\u002012PM\u0020-\u00202:30AM</string>
+    <string name="siga_la_vaca_address">Av. Alicia Moreau de Justo 1714, CABA</string>
+    <string name="siga_la_vaca_geolocation_uri">48Q39JJM+GQ</string>
+
+    <string name="naturaleza_name">Naturaleza Sabia</string>
+    <string name="naturaleza_description">Naturaleza Sabia is a vegetarian restaurant, with vegan and gluten-free options. Naturaleza Sabia is an oasis of well-being in the city.</string>
+    <string name="naturaleza_business_hours">Tue\u0020-\u0020Sat\u0020\u0020\u0020\u002012PM\u0020-\u00203:30PM,\u00208PM\u0020-\u002012AM</string>
+    <string name="naturaleza_address">Balcarce 958, CABA</string>
+    <string name="naturaleza_geolocation_uri">48Q39JJH+CX</string>
+
+    <!--Historic Sites Strings-->
+
+    <string name="caminito_name">Caminito </string>
+    <string name="caminito_description">Colorful and traditional, this walkway in the La Boca area is dominated by tango dancers and artisans.</string>
+    <string name="caminito_address">Av. Don Pedro de Mendoza y Magallanes, CABA</string>
+    <string name="caminito_geolocation_uri">48Q39J6Q+9H</string>
+
+    <string name="rosada_name">Casa Rosada</string>
+    <string name="rosada_description">The Casa Rosada is the executive mansion and office of the President of Argentina. The palatial mansion is known officially as Casa de Gobierno.</string>
+    <string name="rosada_address">Balcarce 50, CABA</string>
+    <string name="rosada_geolocation_uri">48Q39JRH+PV</string>
+
+    <string name="obelisco_name">Obelisco de Buenos Aires</string>
+    <string name="obelisco_description">The Obelisco de Buenos Aires is a national historic monument and icon of Buenos Aires. It was erected in 1936 to commemorate the quadricentennial of the first foundation.</string>
+    <string name="obelisco_address">Av. 9 De Julio &amp; Av. Corrientes, CABA</string>
+    <string name="obelisco_geolocation_uri">48Q39JW9+G9</string>
+
+    <string name="colon_name">Teatro Colón</string>
+    <string name="colon_description">The Teatro Colón is the main opera house in Buenos Aires. It is considered one of the ten best opera houses in the world by National Geographic.</string>
+    <string name="colon_address">Cerrito 628, CABA</string>
+    <string name="colon_geolocation_uri">48Q39JX8+HQ</string>
+
+    <string name="plaza_de_mayo_name">Plaza de Mayo</string>
+    <string name="plaza_de_mayo_description">Plaza de Mayo has been the scene of the most momentous events in Argentine history, as well as the largest popular demonstrations in the country.</string>
+    <string name="plaza_de_mayo_address">Av. Rivadavia &amp; Av. San Martin, CABA</string>
+    <string name="plaza_de_mayo_geolocation_uri">48Q39JRH+M3</string>
+
+    <!--Parks Strings-->
+
+    <string name="rosedal_name">Paseo El Rosedal</string>
+    <string name="rosedal_description">Scenic park with sprawling rose gardens, plus statues of famous poets &amp; a lake with a quaint bridge.</string>
+    <string name="rosedal_business_hours">Tue\u0020-\u0020Sun\u0020\u0020\u0020\u00208AM\u0020-\u00206PM</string>
+    <string name="rosedal_address">Av. Libertador &amp; Av. Sarmiento, CABA</string>
+    <string name="rosedal_geolocation_uri">48Q3CHHM+P3</string>
+
+    <string name="parque_niños_name">Parque de los Niños</string>
+    <string name="parque_niños_description">Grassy waterfront park with a promenade, kids’ play structures, shade trees &amp; picnic areas.</string>
+    <string name="parque_niños_business_hours">Tue\u0020-\u0020Sun\u0020\u0020\u0020\u002010AM\u0020-\u00208PM</string>
+    <string name="parque_niños_address">Int. And PAZ, 1428 CABA</string>
+    <string name="parque_niños_geolocation_uri">48Q3FGCV+G9</string>
+
+    <string name="botanical_name">Botanical garden</string>
+    <string name="botanical_description">The Buenos Aires Botanical Garden is a botanical garden located in the Palermo neighborhood of Buenos Aires in Argentina.</string>
+    <string name="botanical_business_hours_1">Wed\u0020-\u0020Fri\u0020\u0020\u0020\u00208AM\u0020-\u00206:45PM</string>
+    <string name="botanical_business_hours_2">Sat/Sun\u0020\u0020\u0020\u00209:30AM\u0020-\u00206:45PM</string>
+    <string name="botanical_address">Vedia 3600, Buenos Aires</string>
+    <string name="botanical_geolocation_uri">48Q3CH8M+X3</string>
+
+    <string name="planetarium_name">Galileo Galilei planetarium</string>
+    <string name="planetarium_description">The Galileo Galilei planetarium, commonly known as Planetario, is located in Parque Tres de Febrero in the Palermo district of Buenos Aires, Argentina.</string>
+    <string name="planetarium_business_hours_1">Tue\u0020-\u0020Fri\u0020\u0020\u0020\u00209:30AM\u0020-\u00205PM</string>
+    <string name="planetarium_business_hours_2">Sat/Sun\u0020\u0020\u0020\u002011:30AM\u0020-\u00207PM</string>
+    <string name="planetarium_address">Vedia 3600, Buenos Aires</string>
+    <string name="planetarium_geolocation_uri">48Q3CHJQ+48</string>
+
 </resources>
