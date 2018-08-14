@@ -25,5 +25,89 @@
         <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Small</item>
     </style>
 
+    <style name="LocationCardViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="LocationImageStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:foreground">@drawable/image_gradient</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="NameTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignBottom">@+id/image</item>
+        <item name="android:layout_alignLeft">@+id/image</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:shadowColor">@color/text_shadow</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">4</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Large</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="DescriptionTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@+id/text_name</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Small</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="AddressLabelStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="LocationAddressStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignBaseline">@+id/text_addressDefault</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_toRightOf">@+id/text_addressDefault</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Small</item>
+    </style>
+
+    <style name="OpenLabelStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@+id/text_address</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="HourContainerStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignTop">@+id/text_DefaultHour</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_toRightOf">@+id/text_DefaultHour</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
 
 </resources>
